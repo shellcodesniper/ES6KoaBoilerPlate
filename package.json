@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "seung",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node --experimental-json-modules ./bin/www.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "nodemon": "^2.0.11",
+    "prettier": "^2.3.2"
+  }
+}
